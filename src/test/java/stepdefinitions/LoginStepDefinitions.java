@@ -16,6 +16,14 @@ public class LoginStepDefinitions {
         loginSteps.abrirPagina();
     }
 
+    @Dado("que estoy logueado con el usuario {string}")
+    public void queEstoyLogueadoConElUsuario(String tipoUsuario) {
+        loginSteps.abrirPagina();
+        loginSteps.ingresarUsuario(tipoUsuario);
+        loginSteps.ingresarPassword("valida");
+        loginSteps.clickBotonLogin();
+    }
+
     @Cuando("escribo el usuario {string}")
     public void escriboElUsuario(String tipoUsuario) {
         loginSteps.ingresarUsuario(tipoUsuario);
