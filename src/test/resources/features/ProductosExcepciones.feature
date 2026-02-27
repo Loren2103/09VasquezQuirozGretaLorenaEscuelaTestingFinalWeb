@@ -1,5 +1,5 @@
 # language: es
-Característica: Módulo de Productos en SauceDemo - Flujos Alternos y Errores
+Característica: Módulo de Productos en SauceDemo - Errores
   Como usuario del sistema
   Quiero validar el manejo de errores y seguridad en el catalogo
   Para asegurar que las fallas esten notificadas o controladas

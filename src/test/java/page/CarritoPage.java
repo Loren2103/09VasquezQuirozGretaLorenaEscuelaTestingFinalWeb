@@ -48,7 +48,7 @@ public class CarritoPage extends PageObject {
     public WebElementFacade btnCheckout;
 
     public void clickCheckout() {
-        btnCheckout.click();
+        btnCheckout.waitUntilClickable().click();
     }
 
     public int obtenerCantidadDeItemsEnLista() {

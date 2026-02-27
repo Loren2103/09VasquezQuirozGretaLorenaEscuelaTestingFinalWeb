@@ -1,5 +1,5 @@
 # language: es
-Característica: Módulo de Carrito en SauceDemo - Flujos Alternos
+Característica: Módulo de Carrito en SauceDemo - Errores
   Como usuario no autenticado
   Quiero validar la seguridad de la vista del carrito
   Para asegurar que no se exponga informacion sin sesion activa
