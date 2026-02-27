@@ -7,7 +7,7 @@ Característica: Módulo de Productos en SauceDemo - Flujos Alternos y Errores
   @UnhappyPath @AccesoNoAutorizado
   Escenario: Intento de acceso al inventario sin iniciar sesión
     Dado que intento acceder directamente a la URL del inventario
-    Entonces se muestra el mensaje de error "Epic sadface: You can only access '/inventory.html' when you are logged in."
+    Entonces se muestra el mensaje de error "You can only access '/inventory.html' when you are logged in."
 
   @UnhappyPath @AlertaFiltroRoto
   Escenario: Validar alerta de error cuando el filtro de ordenamiento falla

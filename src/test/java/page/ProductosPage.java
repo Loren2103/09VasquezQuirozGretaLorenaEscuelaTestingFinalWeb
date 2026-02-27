@@ -55,4 +55,9 @@ public class ProductosPage extends PageObject {
     public void aceptarAlertaJS() {
         getDriver().switchTo().alert().accept();
     }
+
+    public WebElementFacade obtenerBotonRemovePorProducto(String nombreProducto) {
+        String idBoton = "remove-" + nombreProducto.toLowerCase().replace(" ", "-");
+        return find(By.id(idBoton));
+    }
 }

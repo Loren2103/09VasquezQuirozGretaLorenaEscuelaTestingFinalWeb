@@ -43,14 +43,14 @@ Característica: Autenticación en SauceDemo
     Cuando escribo el usuario ""
     Y escribo la contraseña ""
     Y hago click en el boton de Login
-    Entonces se muestra el mensaje de error "Epic sadface: Username is required"
+    Entonces se muestra el mensaje de error "Username is required"
 
   @UnhappyPath @PasswordVacio
   Escenario: Intento de inicio de sesión dejando la contraseña en blanco
     Cuando escribo el usuario "standard"
     Y escribo la contraseña ""
     Y hago click en el boton de Login
-    Entonces se muestra el mensaje de error "Epic sadface: Password is required"
+    Entonces se muestra el mensaje de error "Password is required"
 
   @UnhappyPath @LoginConLatencia
   Escenario: Inicio de sesión con latencia en la red
